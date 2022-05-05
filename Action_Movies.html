@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>Hot/Must Watch</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-black.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif;}
+.w3-sidebar {
+  z-index: 3;
+  width: 250px;
+  top: 43px;
+  bottom: 0;
+  height: inherit;
+}
+
+a{
+  color: blue;
+}
+</style>
+<body>
+
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-theme w3-top w3-left-align w3-large">
+    <a class="w3-bar-item w3-button w3-right w3-hide-large w3-hover-white w3-large w3-theme-l1" href="javascript:void(0)" onclick="w3_open()"><i class="fa fa-bars"></i></a>
+    <a href="#" class="w3-bar-item w3-button w3-theme-l1">Action</a>
+
+
+  </div>
+</div>
+
+<!-- Sidebar -->
+<nav class="w3-sidebar w3-bar-block w3-collapse w3-large w3-theme-l5 w3-animate-left" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-right w3-xlarge w3-padding-large w3-hover-black w3-hide-large" title="Close Menu">
+    <i class="fa fa-remove"></i>
+  </a>
+  <h4 class="w3-bar-item"><b>Menu</b></h4>
+  <a class="w3-bar-item w3-button w3-hover-black" href="index.html">Home</a>
+  <a class="w3-bar-item w3-button w3-hover-black" href="Upcoming.html">Upcoming</a>
+  <a class="w3-bar-item w3-button w3-hover-black" href="Categories.html">Categories</a>
+  <a class="w3-bar-item w3-button w3-hover-black" href="Contact.html">Contact Us</a>
+  <a class="w3-bar-item w3-button w3-hover-black" href="Feedback.html">Feedback</a>
+</nav>
+
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+<!-- Main content: shift it to the right by 250 pixels when the sidebar is visible -->
+<div class="w3-main" style="margin-left:250px">
+
+  <div class="w3-row w3-padding-64">
+    <div class="w3-twothird w3-container">
+      <h1 class="w3-text-teal">John Wick</h1>
+      <p><b>Storyline</b>--
+With the untimely death of his beloved wife still bitter in his mouth, John Wick, the expert former assassin, receives one final gift from her--a precious keepsake to help John find a new meaning in life now that she is gone. But when the arrogant Russian mob prince, Iosef Tarasov, and his men pay Wick a rather unwelcome visit to rob him of his prized 1969 Mustang and his wife's present, the legendary hitman will be forced to unearth his meticulously concealed identity. Blind with revenge, John will immediately unleash a carefully orchestrated maelstrom of destruction against the sophisticated kingpin, Viggo Tarasov, and his family, who are fully aware of his lethal capacity. Now, only blood can quench the boogeyman's thirst for retribution</p>
+  </div>
+    <div class="w3-third w3-container">
+      <img src="Images/Action1.jpg" alt="john wick poster" =height="230" width="250">
+    </div>
+  </div>
+
+  <div class="w3-row">
+    <div class="w3-twothird w3-container">
+      <h1 class="w3-text-teal">007-No Time To Die </h1>
+      <p><b>Storyline</b>--James Bond has left active service. His peace is short-lived when Felix Leiter, an old friend from the CIA, turns up asking for help, leading Bond onto the trail of a mysterious villain armed with dangerous new technology.</p>
+      </div>
+      <img src="Images/Action2.jpg" alt="no time to die" =height="230" width="250">
+    </div>
+
+  <div class="w3-row w3-padding-64">
+    <div class="w3-twothird w3-container">
+      <h1 class="w3-text-teal">The Kingsman</h1>
+      <p><b>StoryLine</b>--One man must race against time to stop history's worst tyrants and criminal masterminds as they get together to plot a war that could wipe out millions of people and destroy humanity.</p>
+    </div>
+    <div class="w3-third w3-container">
+      <img src="Images/Action3.jpg" alt=" kingsman poster" =height="230" width="250">
+  </div>
+</div>
+
+<div class="w3-row">
+  <div class="w3-twothird w3-container">
+    <h1 class="w3-text-teal">Fast And Furious</h1>
+    <p><b>storyLine</b>--Heading back to the streets where it all began, two men rejoin two women to blast muscle, tuner and exotic cars across Los Angeles and floor through the Mexican desert. When a crime brings them back to L.A., fugitive ex-con Dom Toretto reignites his feud with agent Brian O'Connor. But as they are forced to confront a shared enemy, Dom and Brian must give in to an uncertain new trust if they hope to outmaneuver him. And from convoy heists to precision tunnel crawls across international lines, two men will find the best way to get revenge: push the limits of what's possible behind the wheel.</p>
+    </div>
+     <img src="Images/Action4.jpg" alt="fast and furious poster" =height="230" width="250">
+  </div>
+
+  <div class="w3-row">
+    <div class="w3-twothird w3-container">
+      <h1 class="w3-text-teal">The Matrix</h1>
+      <p><b>StoryLine</b>--Thomas A. Anderson is a man living two lives. By day he is an average computer programmer and by night a hacker known as Neo. Neo has always questioned his reality, but the truth is far beyond his imagination. Neo finds himself targeted by the police when he is contacted by Morpheus, a legendary computer hacker branded a terrorist by the government. As a rebel against the machines, Neo must confront the agents: super-powerful computer programs devoted to stopping Neo and the entire human rebellion.</p>
+      </div>
+     <img src="Images/Action5.jpg" alt="the matrix poster" =height="230" width="250">
+  </div>
+<footer id="myFooter">
+      <p><b>FOLLOW ME</b></p>
+      <div class="wrapper">
+      <a target="_blank" href="https://www.facebook.com/lohin"><i class="fa fa-3x fa-facebook-square"></i></a>
+      <a target="_blank" href="https://twitter.com/login"><i class="fa fa-3x fa-twitter-square"></i></a>
+      </div>
+      <p>Copyright 2022 @skhejo</p>
+
+  </footer>
+
+<!-- END MAIN -->
+</div>
+
+<script>
+// Get the Sidebar
+var mySidebar = document.getElementById("mySidebar");
+
+// Get the DIV with overlay effect
+var overlayBg = document.getElementById("myOverlay");
+
+// Toggle between showing and hiding the sidebar, and add overlay effect
+function w3_open() {
+  if (mySidebar.style.display === 'block') {
+    mySidebar.style.display = 'none';
+    overlayBg.style.display = "none";
+  } else {
+    mySidebar.style.display = 'block';
+    overlayBg.style.display = "block";
+  }
+}
+
+// Close the sidebar with the close button
+function w3_close() {
+  mySidebar.style.display = "none";
+  overlayBg.style.display = "none";
+}
+</script>
+
+</body>
+</html>
